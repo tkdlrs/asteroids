@@ -35,7 +35,7 @@ def main():
                 return
 
         for obj in updatable:
-            obj.update(dt)
+            obj.update(dt)            
 
         for ast in asteroids:
             if ast.collision(player):
