@@ -44,7 +44,7 @@ def main():
             for bullet in shots:
                 if ast.collision(bullet):
                     bullet.kill()
-                    ast.kill()
+                    ast.split()
 
         screen.fill("black")
 
